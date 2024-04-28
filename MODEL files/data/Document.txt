@@ -1,0 +1,13 @@
+Here i used the following classes from "UCF101" dataset
+
+ApplyLipstick
+BabyCrawling
+BlowingCandles
+BrushingTeeth
+CuttingInKitchen
+Haircut
+Hammering
+HeadMassage
+HorseRiding
+JumpingJack
+ShavingBeard
