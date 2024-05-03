@@ -4,4 +4,5 @@ pafy
 moviepy
 pytube
 pathlib
-libgl1-mesa-glx==20.0.8-0ubuntu1
+sudo apt install libgl1-mesa-glx
+
