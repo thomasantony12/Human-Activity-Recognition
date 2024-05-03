@@ -4,5 +4,3 @@ pafy
 moviepy
 pytube
 pathlib
-sudo apt install libgl1-mesa-glx
-
