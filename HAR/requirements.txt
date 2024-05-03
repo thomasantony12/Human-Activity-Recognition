@@ -1,0 +1,8 @@
+streamlit
+opencv-python==4.5.3.56
+pafy
+moviepy
+pytube
+pathlib
+sudo apt install libgl1-mesa-glx
+
