@@ -58,7 +58,7 @@ streamlit run HAR.py
 - tests/: Directory containing unit tests for the project.
 
 
-# Dataset
+## Dataset
 The dataset used for training and testing is `UFC101 Dataset`, the dataset consists of video files from various action. Each video file is manually labeled with its corresponding action.
 
 ## Development
@@ -71,8 +71,9 @@ pytest tests/
 ```
 
 Sample Test Case Table
-Test Case ID	Description	Input	Expected Output	Actual Output	Status
-TC1	Test video feed capture	Start webcam	Webcam feed is displayed	Webcam feed is displayed	Pass
+| Test Case ID | Description	| Input |	Expected Output |	Actual Output	Status |
+| --- | --- | --- | --- | --- |
+| TC1	| Test video feed capture |	Start webcam |	Webcam feed is displayed |	Webcam feed is displayed |	Pass |
 TC2	Test activity classification "Jumping Jack"	Video of activity	Activity classified as "Jumping Jack"	Activity classified as "Jumping Jack"	Pass
 TC3	Test invalid input	Obstructed view	Error message or unknown classification	Error message or unknown classification	Pass
 
