@@ -64,18 +64,18 @@ The dataset used for training and testing is `UFC101 Dataset`, the dataset consi
 ## Development
 
 ### Running Tests
-To run unit tests, execute:
+** To run unit tests, execute: **
 
 ```
 pytest tests/
 ```
 
-Sample Test Case Table
+** Sample Test Case Table **
 | Test Case ID | Description	| Input |	Expected Output |	Actual Output	Status |
 | --- | --- | --- | --- | --- |
 | TC1	| Test video feed capture |	Start webcam |	Webcam feed is displayed |	Webcam feed is displayed |	Pass |
-TC2	Test activity classification "Jumping Jack"	Video of activity	Activity classified as "Jumping Jack"	Activity classified as "Jumping Jack"	Pass
-TC3	Test invalid input	Obstructed view	Error message or unknown classification	Error message or unknown classification	Pass
+| TC2 |	Test activity classification "Jumping Jack" |	Video of activity |	Activity classified as "Jumping Jack" |	Activity classified as "Jumping Jack" |	Pass |
+| TC3	| Test invalid input |	Obstructed view |	Error message or unknown classification |	Error message or unknown classification |	Pass
 
 ## Challenges and Limitations
 - Predefined Activities: Limited to specific activities trained in the model.
