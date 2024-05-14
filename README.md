@@ -64,13 +64,13 @@ The dataset used for training and testing is `UFC101 Dataset`, the dataset consi
 ## Development
 
 ### Running Tests
-** To run unit tests, execute: **
+**To run unit tests, execute:**
 
 ```
 pytest tests/
 ```
 
-** Sample Test Case Table **
+**Sample Test Case Table**
 | Test Case ID | Description	| Input |	Expected Output |	Actual Output	Status |
 | --- | --- | --- | --- | --- |
 | TC1	| Test video feed capture |	Start webcam |	Webcam feed is displayed |	Webcam feed is displayed |	Pass |
