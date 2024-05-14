@@ -41,7 +41,7 @@ git clone https://github.com/thomasantony12/Human-Activity-Recognition.git
 cd HAR
 ```
 
-###Install the required Python packages:
+### Install the required Python packages:
 
 ```
 pip install -r requirements.txt
@@ -90,10 +90,10 @@ TC3	Test invalid input	Obstructed view	Error message or unknown classification	E
   
 ## Future Work
 
--Expand Activity Set: Incorporate a broader range of human activities.
--Model Improvement: Enhance model accuracy with more training data and better algorithms.
--Performance Optimization: Improve system performance on lower-end devices.
--Multisensory Integration: Integrate data from other sensors for more robust activity recognition.
+- Expand Activity Set: Incorporate a broader range of human activities.
+- Model Improvement: Enhance model accuracy with more training data and better algorithms.
+- Performance Optimization: Improve system performance on lower-end devices.
+- Multisensory Integration: Integrate data from other sensors for more robust activity recognition.
 
 ## Contributing
 
@@ -101,13 +101,13 @@ Contributions to enhance the HAR system are welcome. Please fork the repository 
 
 ## License
 
--This project is licensed under the MIT License. See the LICENSE file for more details.
+- This project is licensed under the MIT License. See the LICENSE file for more details.
 
 ## Acknowledgements
 
--Streamlit for the web framework.
--TensorFlow/Keras for the deep learning tools.
--Dataset providers used for training the LRCN model.
+- Streamlit for the web framework.
+- TensorFlow/Keras for the deep learning tools.
+- Dataset providers used for training the LRCN model.
 
 ## Contact
 
