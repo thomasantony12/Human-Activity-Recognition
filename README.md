@@ -33,6 +33,7 @@ sudo apt install libgl1-mesa-glx libglib2.0-0
 
 
 ## Python Packages
+
 ### Clone the repository:
 
 ```
@@ -40,15 +41,15 @@ git clone https://github.com/thomasantony12/Human-Activity-Recognition.git
 cd HAR
 ```
 
-Install the required Python packages:
+###Install the required Python packages:
 
 ```
 pip install -r requirements.txt
 ```
+
 ## Usage
 
 1. Start the Streamlit app:
-
 ```
 streamlit run HAR.py
 ```
@@ -60,10 +61,10 @@ streamlit run HAR.py
 
 ## Project Structure
 
--HAR.py: Main application file for running the Streamlit app.
--model84.keras: Pre-trained LRCN model for activity recognition.
--requirements.txt: List of Python dependencies required for the project.
--tests/: Directory containing unit tests for the project.
+- HAR.py: Main application file for running the Streamlit app.
+- model84.keras: Pre-trained LRCN model for activity recognition.
+- requirements.txt: List of Python dependencies required for the project.
+- tests/: Directory containing unit tests for the project.
 
 ## Development
 
