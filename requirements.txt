@@ -6,3 +6,4 @@ pytube
 pathlib
 opencv-python-headless
 opencv-contrib-python   # if you need extra modules
+tensorflow
