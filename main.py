@@ -189,4 +189,4 @@ if st.button("Recognize"):
 
 st.write("Sometimes the website may crash")
 st.write("Demo video of how the project work")
-st.video("output_video.mp4")
+st.video("Media1.mp4")
