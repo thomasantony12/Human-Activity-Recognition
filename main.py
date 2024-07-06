@@ -161,7 +161,7 @@ if st.button("Recognize"):
     process_input(videolink)
 
     # Make the Output directory if it does not exist
-    test_videos_directory = 'D:/Major project/main/test_videos'
+    test_videos_directory = ''
     os.makedirs(test_videos_directory, exist_ok = True)
 
     # Download a YouTube Video.
