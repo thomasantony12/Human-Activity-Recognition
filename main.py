@@ -157,6 +157,10 @@ def process_input(videolink):
 st.title("Human Activity Recognition")
 
 videolink=st.text_input("Enter the youtube video link")
+st.write("Some times there is a possibility to get crash the website")
+st.write("Demo video of how the project work")
+st.video("output_video.mp4")
+
 if st.button("Recognize"):
     process_input(videolink)
     current_directory = os.getcwd()
