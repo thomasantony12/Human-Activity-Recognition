@@ -7,3 +7,4 @@ pathlib
 opencv-python-headless
 opencv-python-headless  # if you don't need GUI features
 opencv-contrib-python   # if you need extra modules
+libgl1-mesa-glx
