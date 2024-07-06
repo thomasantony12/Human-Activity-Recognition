@@ -1,5 +1,6 @@
 import streamlit as st
 import os
+os.environ["PAFY_BACKEND"] = "internal"
 import cv2
 import random
 import pafy
