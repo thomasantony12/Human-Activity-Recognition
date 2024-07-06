@@ -159,9 +159,9 @@ st.title("Human Activity Recognition")
 videolink=st.text_input("Enter the youtube video link")
 if st.button("Recognize"):
     process_input(videolink)
-
+    current_directory = os.getcwd()
     # Make the Output directory if it does not exist
-    test_videos_directory = ''
+    test_videos_directory = current_directory
     os.makedirs(test_videos_directory, exist_ok = True)
 
     # Download a YouTube Video.
